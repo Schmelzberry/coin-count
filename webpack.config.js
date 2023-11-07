@@ -20,7 +20,7 @@ module.exports = {
       verbose: true
     }),
     new HtmlWebpackPlugin({
-      title: 'template',
+      title: 'coin-count',
       template: './src/index.html',
       inject: 'body'
     })
